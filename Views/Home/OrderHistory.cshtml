@@ -1,0 +1,44 @@
+@model List<BurgerBuilderApp.Models.BurgerViewModel>
+
+@{
+    ViewData["Title"] = "Order History";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>// TODO-CORE-4: Ensure only authenticated users can view their order history.</p>
+<p>// TODO-CORE-2: Display actual order history from the database.</p>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Total Cost</th>
+                <th>Ingredients</th>
+                <th>Order Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>// TODO-CORE-3: Display actual Order ID.</td>
+                    <td>@order.TotalCost.ToString("C")</td>
+                    <td>
+                        @foreach (var ingredient in order.SelectedIngredients)
+                        {
+                            <span>@ingredient.Name</span><br />
+                        }
+                    </td>
+                    <td>// TODO-CORE-3: Display actual Order Date.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No order history found.</p>
+}

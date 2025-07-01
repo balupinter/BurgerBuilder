@@ -1,0 +1,28 @@
+@model BurgerBuilderApp.Models.BurgerViewModel
+
+@{
+    ViewData["Title"] = "Your Burger Order";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your Burger Order Summary</h1>
+
+    @if (Model != null && Model.SelectedIngredients != null && Model.SelectedIngredients.Any())
+    {
+        <h3>Selected Ingredients:</h3>
+        <ul>
+            @foreach (var ingredient in Model.SelectedIngredients)
+            {
+                <li>@ingredient.Name (@ingredient.Price.ToString("C"))</li>
+            }
+        </ul>
+
+        <h3>Total Cost: @Model.TotalCost.ToString("C")</h3>
+    }
+    else
+    {
+        <p>No ingredients selected. Please go back and build your burger!</p>
+    }
+
+    <p><a asp-controller="Home" asp-action="Index">Build another burger</a></p>
+</div>
