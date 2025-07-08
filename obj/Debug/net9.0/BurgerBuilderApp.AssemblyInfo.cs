@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BurgerBuilderApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186318d0dbda0f616b73d25048117b5f2b7aa3b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1317ec11db6de781fb43d7677d55baede01f0e4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BurgerBuilderApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BurgerBuilderApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

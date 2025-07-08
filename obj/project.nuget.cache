@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tYTwf1GNeas=",
+  "dgSpecHash": "W13Vk84VyO0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\BurgerBuilderApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\BurgerBuilderApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nico\\.nuget\\packages\\bootstrap\\5.3.7\\bootstrap.5.3.7.nupkg.sha512"
+  ],
   "logs": []
 }

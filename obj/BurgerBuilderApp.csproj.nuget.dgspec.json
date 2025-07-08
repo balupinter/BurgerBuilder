@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\BurgerBuilderApp.csproj": {}
+    "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\BurgerBuilderApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\BurgerBuilderApp.csproj": {
+    "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\BurgerBuilderApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\BurgerBuilderApp.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\BurgerBuilderApp.csproj",
         "projectName": "BurgerBuilderApp",
-        "projectPath": "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\BurgerBuilderApp.csproj",
-        "packagesPath": "C:\\Users\\tgabo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tgabo\\Desktop\\Projects\\ASP.NET MVC\\BurgerBuilder\\BurgerBuilderApp\\obj\\",
+        "projectPath": "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\BurgerBuilderApp.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Downloads\\WorkExperience\\Balu\\BurgerBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tgabo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net9.0": {
@@ -50,6 +53,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
